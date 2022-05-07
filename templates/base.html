@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <title>{{ pageTitle }}</title>
+	<link rel="stylesheet" type="text/css" href="/static/css/stylesheet.css">
+<style>
+  ul#menu li {
+  display:inline;
+}
+h2 {
+  color:#abd1c6;
+;
+}
+li {
+  color:#abd1c6;
+}
+form {
+  color: #abd1c6;
+}
+</style>
+<h1>Vertical Tank Maintenance</h1>
+<hr>
+</head>
+  <body>
+    <header> 
+      <nav>
+        <ul id="menu">
+          <li><a href="/">Home</a></li>
+          <li><a href="/about">About</a></li>
+          <li><a href="/estimate">Estimate</a></li>
+        </ul>
+      </nav>
+    </header>
+
+      {% block body %}
+
+	  {% endblock %}
+
+ </body>
+
+</html>
