@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'kacsits-vtm'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_0F2C9C9828A542CC91F15532AF7BF978 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_DFA4C45573024E0CBECED4237C7AA88B }}
